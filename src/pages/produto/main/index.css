@@ -1,0 +1,40 @@
+.produto-list{
+    margin: 20px auto 0;
+    padding: 0 20px;
+    max-width: 700px;
+}
+ 
+.produto-list article{
+    background: rgba(247, 237, 129, 0.555);
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 0px;
+}
+ 
+.produto-list article p{
+    font-size: 16px;
+    color: rgb(119, 173, 243);
+    margin-top: 5px;
+    line-height: 24px;
+}
+ 
+.produto-list article a{
+    height: 22px;
+    border-radius: 5px;
+    border: 2px solid rgb(231, 190, 102);
+    background: none;
+    margin-top: 10px;
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ 
+.produto-list article a:hover{
+    background: rgba(20, 56, 214, 0.692);
+    color: rgb(0, 0, 0);
+}
